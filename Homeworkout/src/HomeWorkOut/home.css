@@ -1,0 +1,9 @@
+.weight:hover{
+    -fx-background-color: red;
+    -fx-scale-x: 1.2;
+    -fx-scale-y: 1.2;
+}
+.button:hover{
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+}
