@@ -1,0 +1,78 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	width: auto;
+}
+body{
+	background-image: url("bimg.jpg");
+	background-position: center;
+	background-size: cover;
+}
+h1{
+	font-size: 36px;
+	font-style: Tahoma;
+}
+#top{
+	position: fixed;
+	top: 0;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	height: 20vh;
+	width: 100%;
+	background: black;
+	animation: topside 5s linear infinite; 
+}
+
+.left{
+ 	float: left;
+}
+.left h1{
+ 	color: white;
+}
+.right{
+ 	float: right;
+}
+ .right ul{
+ 	list-style: none;
+ 	padding: 10px;
+ }
+ .right ul li{
+ 	display: inline-block;
+ 	border: 1px solid white;
+ }
+ .right ul li:hover{
+ 	background: white;
+ 	border-radius: 10px;
+ 	transition: 2s background;
+ 	transition: 1s border-radius;
+ }
+ .right ul li a{
+ 	text-decoration: none;
+ 	color: white;
+ 	padding: 5px;
+ }
+ .right ul li a:hover{
+ 	color: black;
+ 	transition: 1s color;
+ }
+ .contact{
+ 	border-radius: 5px;
+ 	background: grey;
+ }
+ #wrapper{
+ 	
+ }
+ footer{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	height: 20vh;
+	width: 100%;
+	background: black;
+	color: white;
+	text-align: center;
+	animation: footerside 5s linear infinite;
+}

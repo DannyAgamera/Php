@@ -1,0 +1,231 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	background-image: url("bimg.jpg");
+	background-position: center;
+	background-size: cover;
+}
+h1{
+	font-size: 36px;
+	font-style: Tahoma;
+}
+#top{
+	position: fixed;
+	top: 0;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	height: 15vh;
+	width: 100%;
+	background: black;
+	animation: topside 5s linear infinite; 
+}
+@keyframes topside{
+	0%{background: black;}
+	50%{background: grey;}
+	100%{background: black;}
+}
+ .left{
+ 	float: left;
+ 	margin-left: 10px;
+ }
+ .left h1{
+ 	color: white;
+ }
+ .right{
+ 	float: right;
+ }
+ ul{
+ 	list-style: none;
+ 	padding: 10px;
+ }
+  div ul li{
+ 	display: inline-block;
+ 	border: 1px solid white;
+ }
+ div ul li:hover{
+ 	background: white;
+ 	border-radius: 10px;
+ 	transition: 2s background;
+ 	transition: 1s border-radius;
+ }
+ ul li a{
+ 	text-decoration: none;
+ 	color: white;
+ 	padding: 5px;
+ }
+ ul li a:hover{
+ 	color: black;
+ 	transition: 1s color;
+ }
+#wrapper{
+	position: relative;
+	text-align: center;
+	width: 1000px;
+	min-height: 0vh;
+	margin: 20px auto;
+	top: 100px;
+}
+@media only screen and (max-width: 590px){
+	body{
+		background: red;
+	}
+	#wrapper{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+	#top{
+		position: absolute;
+	}
+}
+#subtopic{
+	font: 20px bold Tahoma;
+}
+section article #myBtn{
+	background: black;
+	color: white;
+	width: 100px;
+	float: right;
+	text-decoration: none;
+}
+aside article #myBtn{
+	background: white;
+	color: black;
+	width: 100px;
+	float: right;
+	text-decoration: none;
+}
+section{
+	float: left;
+	width: 500px;
+	perspective: 500px;
+}
+#more{
+	display: none;
+}
+section article{
+	margin: 5px;
+	padding: 5px;
+	display: inline-block;
+	background: black;
+}
+section article:hover{
+	background: white;
+	transform: scale(1.1);
+}
+section article{
+	text-decoration: none;
+	color: white;
+}
+section article:hover{
+	color: black;
+	transition: 1s color;
+}
+section article img{
+	height: 50px;
+	width: 50px;
+}
+aside{
+	float: right;
+	width: 500px;
+}
+aside article{
+	margin: 5px;
+	padding: 5px;
+	display: inline-block;
+	background: white;
+}
+aside article:hover{
+	background: black;
+	transition: 2s background;
+	transform: scale(1.1);
+}
+aside article{
+	text-decoration: none;
+	color: black;
+}
+aside article:hover{
+	color: white;
+	transition: 1s color;
+}
+#article1{
+	text-align: center;
+	width: 1000px;
+	min-height: 0vh;
+	margin: 20px auto;
+	margin-top: 130px;
+	display: none;
+}
+#article2{
+	text-align: center;
+	width: 1000px;
+	min-height: 0vh;
+	margin: 20px auto;
+	margin-top: 130px;
+	display: none;
+}
+#article3{
+	text-align: center;
+	width: 1000px;
+	min-height: 0vh;
+	margin: 20px auto;
+	margin-top: 130px;
+	display: none;
+}
+#article4{
+	text-align: center;
+	width: 1000px;
+	min-height: 0vh;
+	margin: 20px auto;
+	margin-top: 130px;
+	display: none;
+}
+#article5{
+	text-align: center;
+	width: 1000px;
+	min-height: 0vh;
+	margin: 20px auto;
+	margin-top: 130px;
+	display: none;
+}
+#article6{
+	text-align: center;
+	width: 1000px;
+	min-height: 0vh;
+	margin: 20px auto;
+	margin-top: 130px;
+	display: none;
+}
+
+footer{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	height: 20vh;
+	width: 100%;
+	color: white;
+	text-align: center;
+	animation: footerside 5s linear infinite;
+}
+footer ul li{
+	display: inline-block;
+	border: 1px solid white; 
+}
+footer ul li:hover{
+ 	background: white;
+ 	border-radius: 10px;
+ 	transition: 2s background;
+ 	transition: 1s border-radius;
+ }
+
+@keyframes footerside{
+	0%{background: black;}
+	50%{background: grey;}
+	100%{background: black;}
+}
